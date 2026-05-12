@@ -1,0 +1,27 @@
+{
+  "big_llm": "gpt-5.5",
+  "dataset": "HotpotQA distractor",
+  "n_examples": 20,
+  "bfs_hops": 2,
+  "g0": {
+    "em": 0.25,
+    "f1": 0.3923,
+    "description": "Base Llama-3.2-3B (instruction prompt only)"
+  },
+  "g1": {
+    "em": 0.4,
+    "f1": 0.5089,
+    "description": "WebNLG LoRA fine-tuned extractor"
+  },
+  "g2": {
+    "em": 0.25,
+    "f1": 0.3214,
+    "description": "Base Llama + GVAE denoiser + Base Llama reconcile"
+  },
+  "delta_em_g1_vs_g0": 0.15,
+  "delta_em_g2_vs_g0": 0.0,
+  "delta_em_g1_vs_g2": 0.15,
+  "delta_f1_g1_vs_g0": 0.1167,
+  "delta_f1_g2_vs_g0": -0.0708,
+  "delta_f1_g1_vs_g2": 0.1875
+}

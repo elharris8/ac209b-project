@@ -1,0 +1,11 @@
+{
+  "model": "Llama-3.2-3B-Instruct + WebNLG LoRA (g1)",
+  "big_llm": "gpt-4o-mini",
+  "dataset": "HotpotQA distractor",
+  "n_examples": 50,
+  "exact_match": 0.44,
+  "token_f1": 0.5243,
+  "empty_graphs": 0,
+  "empty_subgraphs": 0,
+  "bfs_hops": 2
+}
